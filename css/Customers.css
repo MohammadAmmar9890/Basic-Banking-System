@@ -1,0 +1,152 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #424242;
+}
+
+
+/* splash screen css starts here  */
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000304 url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/b6e0b072897469.5bf6e79950d23.gif") no-repeat center center;
+    z-index: 5555555;
+}
+
+/* splash screen css ends here  */
+
+
+/* navbar css starts here  */
+.bg-light {
+    background-color: #0000006c !important;
+}
+
+.navbar-brand {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    color: #8e8e8e !important;
+}
+
+.navbar-brand:hover {
+    color: #8e8e8e !important;
+}
+
+/* navbar css ends here  */
+
+
+/* here content css starts here  */
+/* content */
+.hero-content {
+    height: 95vh;
+    background-color: #22ff80;
+    color: #280404;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 25rem;
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 25rem;
+    margin-bottom: 1vh;
+}
+
+/* image */
+.hero-img {
+    height: 80vh;
+    width: 85%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+        display: none;
+    }
+}
+
+/* botton */
+.get-started {
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 160%;
+    background-color: rgb(15, 0, 0);
+    color: #22ff80 !important;
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    text-decoration: none;
+    background-color: #424242;
+}
+
+/* here content css starts here  */
+
+/* footer css starts here */
+
+footer {
+    background-color: #f6f0ed;
+}
+
+.col-6 {
+    flex: 0 0 120%;
+    max-width: 23%;
+}
+
+.col-6 p {
+    padding-left: 33px;
+    font-weight: bold;
+    /* flex: 0 0 120%; */
+    max-width: 100%;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+}
+
+/* footer css ends here  */
+
+.table {
+    margin-top: 20px;
+}
+
+/* Transaction Table */
+.table-primary,
+.table-primary>td,
+.table-primary>th {
+    background-color: hsl(0deg 0% 60% / 40%);
+}
+
+
+
+.table-success,
+.table-success>td,
+.table-success>th {
+    background-color: #e9ecef;
+}
+
+
+
+.table-warning,
+.table-warning>td,
+.table-warning>th {
+    background-color: hsl(0deg 0% 60%);
+}
