@@ -1,9 +1,8 @@
-# Task_01 - Basic Banking System @TheSparkFoundation
+# Basic Banking System 
 
 #### Objective: Create a Website of Banking System functions only transfer of money between multiple users.
 #### Technologies: HTML, CSS
 #### IDE Used: Visual Studio Code
-#### Batch: #GRIPDECEMBER22
 
 ## Screenshot:
 
